@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A66A4F02A1128690017C868 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 4A66A4EF2A1128690017C868 /* Search */; };
+		4A66A4F22A11286C0017C868 /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 4A66A4F12A11286C0017C868 /* Shared */; };
+		4A7DAAE52A10FC2600BA42CA /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7DAAE42A10FC2600BA42CA /* Core */; };
+		4A7DAAF12A11266F00BA42CA /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7DAAF02A11266F00BA42CA /* Account */; };
+		4A7DAAF32A11266F00BA42CA /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7DAAF22A11266F00BA42CA /* Detail */; };
+		4A7DAAF52A11266F00BA42CA /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7DAAF42A11266F00BA42CA /* Favorite */; };
+		4A7DAAF72A11266F00BA42CA /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7DAAF62A11266F00BA42CA /* Home */; };
 		4AC7D5D02A0FCA92009DBA2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7D5CF2A0FCA92009DBA2F /* AppDelegate.swift */; };
 		4AC7D5D22A0FCA92009DBA2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7D5D12A0FCA92009DBA2F /* SceneDelegate.swift */; };
-		4AC7D5D42A0FCA92009DBA2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7D5D32A0FCA92009DBA2F /* ViewController.swift */; };
+		4AC7D5D42A0FCA92009DBA2F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7D5D32A0FCA92009DBA2F /* BaseViewController.swift */; };
 		4AC7D5D92A0FCA93009DBA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7D5D82A0FCA93009DBA2F /* Assets.xcassets */; };
 		4AC7D5DC2A0FCA93009DBA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7D5DA2A0FCA93009DBA2F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A66A4ED2A1128490017C868 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Shared; path = "MovieDB Modular/Shared"; sourceTree = "<group>"; };
+		4A66A4EE2A1128590017C868 /* Search */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Search; path = "MovieDB Modular/Search"; sourceTree = "<group>"; };
+		4A7DAAEB2A11251500BA42CA /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Home; path = "MovieDB Modular/Home"; sourceTree = "<group>"; };
+		4A7DAAED2A11253000BA42CA /* Detail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Detail; path = "MovieDB Modular/Detail"; sourceTree = "<group>"; };
+		4A7DAAEE2A11255900BA42CA /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Favorite; path = "MovieDB Modular/Favorite"; sourceTree = "<group>"; };
+		4A7DAAEF2A11257400BA42CA /* Account */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Account; path = "MovieDB Modular/Account"; sourceTree = "<group>"; };
 		4AC7D5CC2A0FCA92009DBA2F /* MovieDB Modular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MovieDB Modular.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC7D5CF2A0FCA92009DBA2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AC7D5D12A0FCA92009DBA2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4AC7D5D32A0FCA92009DBA2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AC7D5D32A0FCA92009DBA2F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4AC7D5D82A0FCA93009DBA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AC7D5DB2A0FCA93009DBA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AC7D5DD2A0FCA93009DBA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,17 +42,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7DAAF12A11266F00BA42CA /* Account in Frameworks */,
+				4A7DAAF32A11266F00BA42CA /* Detail in Frameworks */,
+				4A66A4F22A11286C0017C868 /* Shared in Frameworks */,
+				4A66A4F02A1128690017C868 /* Search in Frameworks */,
+				4A7DAAE52A10FC2600BA42CA /* Core in Frameworks */,
+				4A7DAAF52A11266F00BA42CA /* Favorite in Frameworks */,
+				4A7DAAF72A11266F00BA42CA /* Home in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A7DAAE62A10FCC100BA42CA /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4A66A4ED2A1128490017C868 /* Shared */,
+				4A7DAAEB2A11251500BA42CA /* Home */,
+				4A7DAAED2A11253000BA42CA /* Detail */,
+				4A7DAAEE2A11255900BA42CA /* Favorite */,
+				4A7DAAEF2A11257400BA42CA /* Account */,
+				4A66A4EE2A1128590017C868 /* Search */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		4A7DAAE82A10FEF700BA42CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AC7D5C32A0FCA92009DBA2F = {
 			isa = PBXGroup;
 			children = (
+				4A7DAAE62A10FCC100BA42CA /* Packages */,
 				4AC7D5CE2A0FCA92009DBA2F /* MovieDB Modular */,
 				4AC7D5CD2A0FCA92009DBA2F /* Products */,
+				4A7DAAE82A10FEF700BA42CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +117,7 @@
 			children = (
 				4AC7D5CF2A0FCA92009DBA2F /* AppDelegate.swift */,
 				4AC7D5D12A0FCA92009DBA2F /* SceneDelegate.swift */,
-				4AC7D5D32A0FCA92009DBA2F /* ViewController.swift */,
+				4AC7D5D32A0FCA92009DBA2F /* BaseViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -97,6 +139,13 @@
 			);
 			name = "MovieDB Modular";
 			packageProductDependencies = (
+				4A7DAAE42A10FC2600BA42CA /* Core */,
+				4A7DAAF02A11266F00BA42CA /* Account */,
+				4A7DAAF22A11266F00BA42CA /* Detail */,
+				4A7DAAF42A11266F00BA42CA /* Favorite */,
+				4A7DAAF62A11266F00BA42CA /* Home */,
+				4A66A4EF2A1128690017C868 /* Search */,
+				4A66A4F12A11286C0017C868 /* Shared */,
 			);
 			productName = "MovieDB Modular";
 			productReference = 4AC7D5CC2A0FCA92009DBA2F /* MovieDB Modular.app */;
@@ -127,6 +176,7 @@
 			);
 			mainGroup = 4AC7D5C32A0FCA92009DBA2F;
 			packageReferences = (
+				4A7DAAE32A10FC2600BA42CA /* XCRemoteSwiftPackageReference "MovieDB-iOS-Core" */,
 			);
 			productRefGroup = 4AC7D5CD2A0FCA92009DBA2F /* Products */;
 			projectDirPath = "";
@@ -154,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC7D5D42A0FCA92009DBA2F /* ViewController.swift in Sources */,
+				4AC7D5D42A0FCA92009DBA2F /* BaseViewController.swift in Sources */,
 				4AC7D5D02A0FCA92009DBA2F /* AppDelegate.swift in Sources */,
 				4AC7D5D22A0FCA92009DBA2F /* SceneDelegate.swift in Sources */,
 			);
@@ -364,6 +414,49 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A7DAAE32A10FC2600BA42CA /* XCRemoteSwiftPackageReference "MovieDB-iOS-Core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/finnchristoffer/MovieDB-iOS-Core.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A66A4EF2A1128690017C868 /* Search */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Search;
+		};
+		4A66A4F12A11286C0017C868 /* Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Shared;
+		};
+		4A7DAAE42A10FC2600BA42CA /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A7DAAE32A10FC2600BA42CA /* XCRemoteSwiftPackageReference "MovieDB-iOS-Core" */;
+			productName = Core;
+		};
+		4A7DAAF02A11266F00BA42CA /* Account */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Account;
+		};
+		4A7DAAF22A11266F00BA42CA /* Detail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Detail;
+		};
+		4A7DAAF42A11266F00BA42CA /* Favorite */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Favorite;
+		};
+		4A7DAAF62A11266F00BA42CA /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4AC7D5C42A0FCA92009DBA2F /* Project object */;
 }
