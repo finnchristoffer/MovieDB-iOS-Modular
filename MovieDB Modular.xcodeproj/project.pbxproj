@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A078D582A13720300C419FA /* MovieDB_ModularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A078D572A13720300C419FA /* MovieDB_ModularUITests.swift */; };
+		4A078D5A2A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A078D592A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift */; };
 		4A66A4F02A1128690017C868 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 4A66A4EF2A1128690017C868 /* Search */; };
 		4A66A4F22A11286C0017C868 /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 4A66A4F12A11286C0017C868 /* Shared */; };
 		4A7DAAE52A10FC2600BA42CA /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7DAAE42A10FC2600BA42CA /* Core */; };
@@ -21,7 +23,20 @@
 		4AC7D5DC2A0FCA93009DBA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7D5DA2A0FCA93009DBA2F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4A078D5B2A13720300C419FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC7D5C42A0FCA92009DBA2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC7D5CB2A0FCA92009DBA2F;
+			remoteInfo = "MovieDB Modular";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4A078D552A13720300C419FA /* MovieDB ModularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MovieDB ModularUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A078D572A13720300C419FA /* MovieDB_ModularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB_ModularUITests.swift; sourceTree = "<group>"; };
+		4A078D592A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB_ModularUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4A66A4ED2A1128490017C868 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Shared; path = "MovieDB Modular/Shared"; sourceTree = "<group>"; };
 		4A66A4EE2A1128590017C868 /* Search */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Search; path = "MovieDB Modular/Search"; sourceTree = "<group>"; };
 		4A7DAAEB2A11251500BA42CA /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Home; path = "MovieDB Modular/Home"; sourceTree = "<group>"; };
@@ -38,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4A078D522A13720300C419FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AC7D5C92A0FCA92009DBA2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A078D562A13720300C419FA /* MovieDB ModularUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A078D572A13720300C419FA /* MovieDB_ModularUITests.swift */,
+				4A078D592A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift */,
+			);
+			path = "MovieDB ModularUITests";
+			sourceTree = "<group>";
+		};
 		4A7DAAE62A10FCC100BA42CA /* Packages */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +111,7 @@
 			children = (
 				4A7DAAE62A10FCC100BA42CA /* Packages */,
 				4AC7D5CE2A0FCA92009DBA2F /* MovieDB Modular */,
+				4A078D562A13720300C419FA /* MovieDB ModularUITests */,
 				4AC7D5CD2A0FCA92009DBA2F /* Products */,
 				4A7DAAE82A10FEF700BA42CA /* Frameworks */,
 			);
@@ -89,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				4AC7D5CC2A0FCA92009DBA2F /* MovieDB Modular.app */,
+				4A078D552A13720300C419FA /* MovieDB ModularUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +158,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4A078D542A13720300C419FA /* MovieDB ModularUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A078D5F2A13720300C419FA /* Build configuration list for PBXNativeTarget "MovieDB ModularUITests" */;
+			buildPhases = (
+				4A078D512A13720300C419FA /* Sources */,
+				4A078D522A13720300C419FA /* Frameworks */,
+				4A078D532A13720300C419FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A078D5C2A13720300C419FA /* PBXTargetDependency */,
+			);
+			name = "MovieDB ModularUITests";
+			productName = "MovieDB ModularUITests";
+			productReference = 4A078D552A13720300C419FA /* MovieDB ModularUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		4AC7D5CB2A0FCA92009DBA2F /* MovieDB Modular */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AC7D5E02A0FCA93009DBA2F /* Build configuration list for PBXNativeTarget "MovieDB Modular" */;
@@ -161,6 +212,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					4A078D542A13720300C419FA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4AC7D5CB2A0FCA92009DBA2F;
+					};
 					4AC7D5CB2A0FCA92009DBA2F = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -183,11 +238,19 @@
 			projectRoot = "";
 			targets = (
 				4AC7D5CB2A0FCA92009DBA2F /* MovieDB Modular */,
+				4A078D542A13720300C419FA /* MovieDB ModularUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4A078D532A13720300C419FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AC7D5CA2A0FCA92009DBA2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +263,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A078D512A13720300C419FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A078D5A2A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift in Sources */,
+				4A078D582A13720300C419FA /* MovieDB_ModularUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AC7D5C82A0FCA92009DBA2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +283,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A078D5C2A13720300C419FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC7D5CB2A0FCA92009DBA2F /* MovieDB Modular */;
+			targetProxy = 4A078D5B2A13720300C419FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4AC7D5DA2A0FCA93009DBA2F /* LaunchScreen.storyboard */ = {
@@ -224,6 +304,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4A078D5D2A13720300C419FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR56UH6MNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppleDeveloperAcademy.MovieDB-ModularUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MovieDB Modular";
+			};
+			name = Debug;
+		};
+		4A078D5E2A13720300C419FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KR56UH6MNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AppleDeveloperAcademy.MovieDB-ModularUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MovieDB Modular";
+			};
+			name = Release;
+		};
 		4AC7D5DE2A0FCA93009DBA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -352,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +496,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,6 +513,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4A078D5F2A13720300C419FA /* Build configuration list for PBXNativeTarget "MovieDB ModularUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A078D5D2A13720300C419FA /* Debug */,
+				4A078D5E2A13720300C419FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4AC7D5C72A0FCA92009DBA2F /* Build configuration list for PBXProject "MovieDB Modular" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
