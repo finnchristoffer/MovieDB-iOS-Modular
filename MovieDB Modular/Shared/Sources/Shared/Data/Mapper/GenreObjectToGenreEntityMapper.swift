@@ -9,13 +9,13 @@ import Core
 
 public struct GenreObjectToGenreEntityMapper: Mapper {
   public typealias From = [GenreObject]
-  public typealias To = [GenreEntity]
+  public typealias To = [GenreObjectEntity]
   
   public init() {}
   
-  public func transform(from this: [GenreObject]) -> [GenreEntity] {
+  public func transform(from this: [GenreObject]) -> [GenreObjectEntity] {
     return this.map { result in
-      return GenreEntity(id: result.id, name: result.name)
+      return GenreObjectEntity(id: result.id, name: result.name)
     }
   }
 }

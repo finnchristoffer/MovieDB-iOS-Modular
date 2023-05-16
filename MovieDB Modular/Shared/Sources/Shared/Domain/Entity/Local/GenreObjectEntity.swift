@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct GenreEntity: Equatable, Identifiable {
+public struct GenreObjectEntity: Equatable, Identifiable {
   public let id: Int
   public let name: String
   

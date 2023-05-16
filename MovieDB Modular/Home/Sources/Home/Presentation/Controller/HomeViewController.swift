@@ -11,6 +11,7 @@ import RxCocoa
 import SnapKit
 import SkeletonView
 import Shared
+import Detail
 
 public class HomeViewController: UIViewController {
   
@@ -240,10 +241,10 @@ extension HomeViewController: UICollectionViewDelegate {
       selectedMovieId = viewModel.upcomingMovies.value[indexPath.row].id
     }
     
-//    guard let movieId = selectedMovieId else { return }
-//    let detailVC = Injection().container.resolve(DetailViewController.self)!
-//    detailVC.movieId = movieId
-//    detailVC.hidesBottomBarWhenPushed = true
-//    navigationController?.pushViewController(detailVC, animated: true)
+    guard let movieId = selectedMovieId else { return }
+    let detailVC = DetailModule().container.resolve(DetailViewController.self)!
+    detailVC.movieId = movieId
+    detailVC.hidesBottomBarWhenPushed = true
+    navigationController?.pushViewController(detailVC, animated: true)
   }
 }

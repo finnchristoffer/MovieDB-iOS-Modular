@@ -34,6 +34,10 @@ public class SharedModule {
       GenreObjectToGenreEntityMapper()
     }
     
+    container.register(MovieEntityToObjectMapper.self) { _ in
+      MovieEntityToObjectMapper()
+    }
+    
     return container
   }()
 }

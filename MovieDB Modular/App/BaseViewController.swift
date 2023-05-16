@@ -7,6 +7,7 @@
 
 import UIKit
 import Home
+import Favorite
 
 class BaseViewController: UITabBarController {
   
@@ -25,16 +26,16 @@ class BaseViewController: UITabBarController {
 //    let searchImage = UIImage(systemName: "magnifyingglass.circle")
 //    let searchVC = Injection().container.resolve(SearchViewController.self)
 //    let search = templateNavigationController(image: searchImage, rootViewController: searchVC!, title: "Search")
-//
-//    let favoriteImage = UIImage(systemName: "heart.fill")
-//    let favoriteVC = Injection().container.resolve(FavoriteViewController.self)
-//    let favorite = templateNavigationController(image: favoriteImage, rootViewController: favoriteVC!, title: "Favorite")
+
+    let favoriteImage = UIImage(systemName: "heart.fill")
+    let favoriteVC = FavoriteModule().container.resolve(FavoriteViewController.self)
+    let favorite = templateNavigationController(image: favoriteImage, rootViewController: favoriteVC!, title: "Favorite")
 //
 //    let accountImage = UIImage(systemName: "person.fill")
 //    let account = templateNavigationController(image: accountImage, rootViewController: AccountViewController(), title: "Account")
     
 //    viewControllers = [home, search, favorite, account]
-    viewControllers = [home]
+    viewControllers = [home, favorite]
   }
   
   private func templateNavigationController(image: UIImage?, rootViewController: UIViewController, title: String) -> UINavigationController {
