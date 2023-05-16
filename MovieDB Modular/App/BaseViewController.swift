@@ -8,6 +8,8 @@
 import UIKit
 import Home
 import Favorite
+import Search
+import Account
 
 class BaseViewController: UITabBarController {
   
@@ -23,19 +25,19 @@ class BaseViewController: UITabBarController {
     let homeVC = HomeModule().container.resolve(HomeViewController.self)
     let home = templateNavigationController(image: homeImage, rootViewController: homeVC!, title: "Home")
     
-//    let searchImage = UIImage(systemName: "magnifyingglass.circle")
-//    let searchVC = Injection().container.resolve(SearchViewController.self)
-//    let search = templateNavigationController(image: searchImage, rootViewController: searchVC!, title: "Search")
+    let searchImage = UIImage(systemName: "magnifyingglass.circle")
+    let searchVC = SearchModule().container.resolve(SearchViewController.self)
+    let search = templateNavigationController(image: searchImage, rootViewController: searchVC!, title: "Search")
 
     let favoriteImage = UIImage(systemName: "heart.fill")
     let favoriteVC = FavoriteModule().container.resolve(FavoriteViewController.self)
     let favorite = templateNavigationController(image: favoriteImage, rootViewController: favoriteVC!, title: "Favorite")
-//
-//    let accountImage = UIImage(systemName: "person.fill")
-//    let account = templateNavigationController(image: accountImage, rootViewController: AccountViewController(), title: "Account")
+
+    let accountImage = UIImage(systemName: "person.fill")
+    let account = templateNavigationController(image: accountImage, rootViewController: AccountViewController(), title: "Account")
     
-//    viewControllers = [home, search, favorite, account]
-    viewControllers = [home, favorite]
+    viewControllers = [home, search, favorite, account]
+//    viewControllers = [home, search, favorite]
   }
   
   private func templateNavigationController(image: UIImage?, rootViewController: UIViewController, title: String) -> UINavigationController {
