@@ -49,7 +49,7 @@ MovieFrenzy is available in English.
 ### Installation
 1. Download the repository
 2. Open the project by using Xcode
-3. Replace the value of apiKey with your Client ID (API token) at Network file.
+3. Replace the value of API_KEY with your Client ID (API token) at TMDB-Info.plist.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md]() file for details
