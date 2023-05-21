@@ -3,7 +3,7 @@
 # MovieFrenzy
 Discover movie that you like.
 
-Get acquainted with a wide range of information about movies, including the Caster, score, adaptation source, synopsis, and more. Easily find any movie by its title in English. Create your own favorite list for convenient access.
+Get acquainted with a wide range of information about movies, including the cast, score, duration movie, genre, synopsis, and more. Easily find any movie by its title in English. Create your own favorite list for convenient access.
 
 MovieFrenzy is available in English.
 > Other language will be added if necessary
