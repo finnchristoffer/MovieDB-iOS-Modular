@@ -1,4 +1,4 @@
-<!-- ![Yume](readme/feature-graphic.jpg "Yume") -->
+![1](https://github.com/finnchristoffer/MovieDB-iOS-Modular/assets/75067308/3a6117c7-f99f-4b9b-b454-23c0fb2fdb84)
 
 # MovieFrenzy
 Discover movie that you like.
