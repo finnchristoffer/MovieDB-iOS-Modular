@@ -52,7 +52,7 @@ MovieFrenzy is available in English.
 3. Replace the value of API_KEY with your Client ID (API token) at TMDB-Info.plist.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md]() file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/finnchristoffer/MovieDB-iOS-Modular/blob/main/LICENSE) file for details
 
 ## Acknowledgments
 * [MovieDB API](https://www.themoviedb.org/settings/api) by [MovieDB](https://www.themoviedb.org/)
