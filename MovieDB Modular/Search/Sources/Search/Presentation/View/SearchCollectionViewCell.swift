@@ -13,7 +13,7 @@ import Shared
 
 class SearchCollectionViewCell: UICollectionViewCell {
   
-  static let reuseIdentifier = "SearchCollectionViewCell"
+  static let reuseIdentifier = String(describing: SearchCollectionViewCell.self)
   
   var item: Movie? {
     didSet {

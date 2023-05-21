@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A078D582A13720300C419FA /* MovieDB_ModularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A078D572A13720300C419FA /* MovieDB_ModularUITests.swift */; };
 		4A078D5A2A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A078D592A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift */; };
+		4A43E4AD2A19E994000EBB98 /* TMDB-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A43E4AC2A19E994000EBB98 /* TMDB-Info.plist */; };
 		4A66A4F02A1128690017C868 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 4A66A4EF2A1128690017C868 /* Search */; };
 		4A66A4F22A11286C0017C868 /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 4A66A4F12A11286C0017C868 /* Shared */; };
 		4A7DAAE52A10FC2600BA42CA /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7DAAE42A10FC2600BA42CA /* Core */; };
@@ -37,6 +38,7 @@
 		4A078D552A13720300C419FA /* MovieDB ModularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MovieDB ModularUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A078D572A13720300C419FA /* MovieDB_ModularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB_ModularUITests.swift; sourceTree = "<group>"; };
 		4A078D592A13720300C419FA /* MovieDB_ModularUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB_ModularUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A43E4AC2A19E994000EBB98 /* TMDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMDB-Info.plist"; sourceTree = "<group>"; };
 		4A66A4ED2A1128490017C868 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Shared; path = "MovieDB Modular/Shared"; sourceTree = "<group>"; };
 		4A66A4EE2A1128590017C868 /* Search */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Search; path = "MovieDB Modular/Search"; sourceTree = "<group>"; };
 		4A7DAAEB2A11251500BA42CA /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Home; path = "MovieDB Modular/Home"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				4AC7D5E42A0FCAC1009DBA2F /* App */,
 				4AC7D5E32A0FCAB0009DBA2F /* Resource */,
 				4AC7D5DD2A0FCA93009DBA2F /* Info.plist */,
+				4A43E4AC2A19E994000EBB98 /* TMDB-Info.plist */,
 			);
 			path = "MovieDB Modular";
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A43E4AD2A19E994000EBB98 /* TMDB-Info.plist in Resources */,
 				4AC7D5DC2A0FCA93009DBA2F /* LaunchScreen.storyboard in Resources */,
 				4AC7D5D92A0FCA93009DBA2F /* Assets.xcassets in Resources */,
 			);

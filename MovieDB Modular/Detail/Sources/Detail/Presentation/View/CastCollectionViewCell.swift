@@ -12,7 +12,7 @@ import Shared
 
 class CastCollectionViewCell: UICollectionViewCell {
   
-  static let reuseIdentifier = "CastCollectionViewCell"
+  static let reuseIdentifier = String(describing: CastCollectionViewCell.self)
   
   var item: Cast? {
     didSet {

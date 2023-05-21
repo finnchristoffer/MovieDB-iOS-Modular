@@ -10,7 +10,7 @@ import Foundation
 public struct API {
   static let baseUrl = "https://api.themoviedb.org/3/"
   public static let baseUrlImage = "https://image.tmdb.org/t/p/original"
-  static let apiKey = "d8bf466e0e794e7f8499748928d9f491"
+  static let apiKey = apiKeyValue
 }
 
 public protocol Endpoint {
@@ -37,5 +37,24 @@ public enum Endpoints {
       case .movieCast(let id): return "\(API.baseUrl)movie/\(id)/credits?api_key=\(API.apiKey)"
       }
     }
+  }
+}
+
+private var apiKeyValue: String {
+  get {
+    guard let filePath = Bundle.main.path(forResource: "TMDB-Info", ofType: "plist") else {
+      fatalError("Couldn't find file 'TMDB-Info.plist'.")
+    }
+    
+    let plist = NSDictionary(contentsOfFile: filePath)
+    guard let value = plist?.object(forKey: "API_KEY") as? String else {
+      fatalError("Couldn't find key 'API_KEY' in 'TMDB-Info.plist'.")
+    }
+    
+    if (value.starts(with: "_")) {
+      fatalError("Register for a TMDB developer account and get an API key at https://developers.themoviedb.org/3/getting-started/introduction.")
+    }
+    
+    return value
   }
 }

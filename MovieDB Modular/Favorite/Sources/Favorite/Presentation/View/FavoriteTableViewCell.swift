@@ -13,7 +13,7 @@ import Shared
 
 class FavoriteTableViewCell: UITableViewCell {
   
-  static let reuseIdentifier = "CastTableViewCell"
+  static let reuseIdentifier = String(describing: FavoriteTableViewCell.self)
   
   var item: MovieObjectEntity? {
     didSet {
