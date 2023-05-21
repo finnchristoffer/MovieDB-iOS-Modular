@@ -10,11 +10,11 @@ MovieFrenzy is available in English.
 
 ## Features
 <p align="center">
-<!--  <img src="readme/screen-1.jpg" width="19%">
- <img src="readme/screen-2.jpg" width="19%">
- <img src="readme/screen-3.jpg" width="19%">
- <img src="readme/screen-4.jpg" width="19%">
- <img src="readme/screen-5.jpg" width="19%"> -->
+  <img src="https://github.com/finnchristoffer/MovieDB-iOS-Modular/assets/75067308/1179ff00-abc8-45c8-8966-d09cd92b3650" width="19%">
+  <img src="https://github.com/finnchristoffer/MovieDB-iOS-Modular/assets/75067308/eb423912-2aca-477f-88dd-5f689635f22b" width="19%">
+  <img src="https://github.com/finnchristoffer/MovieDB-iOS-Modular/assets/75067308/119c7fea-4d92-4b66-b253-33c125bc040d" width="19%">
+  <img src="https://github.com/finnchristoffer/MovieDB-iOS-Modular/assets/75067308/107cfd4a-2465-47dd-87e9-160990cdb173" width="19%">
+  <img src="https://github.com/finnchristoffer/MovieDB-iOS-Modular/assets/75067308/f04913ab-0fc6-4c19-b1de-d455ad2c21c8" width="19%">
 </p>
 
 ### Home
