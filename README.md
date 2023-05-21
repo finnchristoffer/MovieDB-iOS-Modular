@@ -32,7 +32,8 @@ MovieFrenzy is available in English.
 - Developer profile (🧑🏻‍💻me)
 
 ## Dependency Diagram
-<!-- ![Yume Dependency Diagram](readme/dependency-diagram.png "Yume Dependency Diagram") -->
+![Dependency graph (3)](https://github.com/finnchristoffer/MovieDB-iOS-Modular/assets/75067308/ea0493f0-466c-45fd-967f-9ddb24255775)
+
 
 ## Getting Started
 ### Prerequisites
