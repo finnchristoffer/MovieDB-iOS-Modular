@@ -23,7 +23,7 @@ MovieFrenzy is available in English.
 - Top now playing movie
 
 ### Search
-- Search anime by title using English
+- Search movie by title using English
 
 ### Favorite
 - List of movie added to favorite
